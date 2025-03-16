@@ -7,4 +7,14 @@
 name = input("Hello, I am Python, what is your name?").strip().title()
 
 #Print it
-print(f"Hello, {name}, How are you doing today?")
+print(f"1. Hello, {name}, How are you doing today?")
+
+
+#Split user's name and print first name
+
+first,last = name.split(" ")
+
+print(f"Hello, {first}")
+
+
+

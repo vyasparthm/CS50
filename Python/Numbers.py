@@ -1,5 +1,5 @@
 """
-This code file will have details about all it items you can do with numbers in python
+This code file will have details about all it items you can do with integers in python
 """
 
 x = int(input("Add first value:"))

@@ -11,3 +11,6 @@ print(f"x + y =", x + y)
 
 
 
+# Another way of inserting user's input and make this code a single line program but is it readable enough??
+
+print(int(input("Add first value:")) +  int(input("Add second value:"))) # Nesting too many things is good but not always a best idea.

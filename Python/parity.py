@@ -16,19 +16,40 @@ Lets use +, -, *, /, % as well and see how things pan out.
 
 # 2. Lets get back into the habit of defining main() function
 
-x = int(input("What is x? "))
+# x = int(input("What is x? "))
+# def main():
+    
+#     if is_even(x):
+#         print("Even")
+#     else:
+#         print("Odd")
+
+
+# def is_even(n): 
+#     if n % 2 == 0: 
+#         return True
+#     else:
+#         return False
+    
+# main()
+
+
+# 3. How about making yur function bit more "Pythonic"?
+
+
 def main():
+    x = int(input("What is x? "))
     
     if is_even(x):
         print("Even")
     else:
         print("Odd")
 
-
+#Notice the difference how we combined the whole thing i just one line?
 def is_even(n): 
-    if n % 2 == 0: 
-        return True
-    else:
-        return False
+    # return True if n%2 == 0 else False
+# or you can do this
+    return n%2 ==0
     
 main()
+

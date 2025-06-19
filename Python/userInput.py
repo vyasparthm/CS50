@@ -24,12 +24,20 @@ print(f"5. Hello, {name}")
 name = name.title()
 print(f"6. Hello, {name}")
 
+#Convert Everything to Upper Case
+name = name.upper()
+print(f"7. Hello, Upper case,{name}")
+
+#Convert Everything to Lower Case
+name = name.lower()
+print(f"8. Hello, Lower case,{name}")
+
 # How to use quatation marks within the string???
-print("1. Hello, ""Bud"  "")
+print("9. Hello, ""Bud"  "")
 
-print("2. Hello,\"Bud\"  ")
+print("10. Hello,\"Bud\"  ")
 
-print("3. Hello, 'bud' ")
+print("11. Hello, 'bud' ")
 
 
 

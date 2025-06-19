@@ -1,5 +1,5 @@
 """ In userInput.py we saw that we needed to write multiple lines just to print a user's name.
-    in this cod, we can see that we can do all of the good stuff to avoid user's inintentional mistakes and minimize  the lines of code
+    in this code, we can see that we can do all of the good stuff to avoid user's inintentional mistakes and minimize  the lines of code
 
 """
 

@@ -11,4 +11,4 @@ main()
 
 
 # Uncomment below to check the scope, name is only defined in the function main
-# print(name)
+print(main.__name__) 

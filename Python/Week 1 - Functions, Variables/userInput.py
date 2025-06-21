@@ -40,4 +40,10 @@ print("10. Hello,\"Bud\"  ")
 print("11. Hello, 'bud' ")
 
 
+# How about doing everything together? Make user name in title case and strip off extra spaces?
+
+name = name.strip().title()
+
+print(f"11. Hello, {name}")
+
 

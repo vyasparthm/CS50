@@ -1,29 +1,66 @@
 """
-This code will show us the functions and what we can do with them. Lets define a simple function and go from there
-If the function is is not defined before its used, it will throw an error!!, try uncommenting line 10 and see how it goes
+Introduction to Python Functions
+================================
 
-There is a better and standard way so that you don't have to keep defining functions before you get to use them, look into functionsDefined.py
+This program demonstrates fundamental concepts about Python functions:
+1. Function definition and calling
+2. The importance of function definition order
+3. Function parameters and arguments
+4. Default parameter values
+5. Function redefinition behavior
+
+Key Learning Points:
+- Functions must be defined before they are called (unless using main() pattern)
+- Functions can accept parameters to make them more flexible
+- Default parameters provide fallback values when arguments aren't provided
+- Functions can be redefined, with the latest definition taking precedence
+
+For a better approach to function organization, see functionsDefined.py
 """
 
-#Let's make a function to Print Hello from what we did earlier.
+# ========================================
+# SECTION 1: Basic Function Usage
+# ========================================
 
+# Get user input for personalized greeting
 name = input("Hi I am Python, what is your name: ")
-# print(f"Hello, {name}") #Uncomment to see the effect of function
 
-# Hello(name) #Try uncommenting this to see why order of defination of function matters
+# Demonstration of function call order importance
+# print(f"Hello, {name}")  # Uncomment to see direct output without function
 
-#Define a function called Hello with input parameter, to here will replace the input parameter
+# Hello(name)  # Try uncommenting this line to see why function definition order matters
+               # This will cause a NameError because Hello() is not yet defined
 
+# ========================================
+# SECTION 2: Function Definition and Calling
+# ========================================
 
 def Hello(to):
+    """
+    A simple greeting function that takes one parameter.
+
+    Args:
+        to (str): The name of the person to greet
+    """
     print(f"Hello, {to}")
 
-Hello(name)    
+# Call the function with the user's name
+Hello(name)
 
-# How anout a default value?
+# ========================================
+# SECTION 3: Functions with Default Parameters
+# ========================================
 
+def Hello(to="World"):
+    """
+    An improved greeting function with a default parameter.
 
-def Hello(to ="World"):
+    Args:
+        to (str, optional): The name to greet. Defaults to "World".
+
+    Note: This redefinition overwrites the previous Hello() function.
+    """
     print(f"Hello, {to}")
 
-Hello()    
+# Call the function without arguments - uses default value
+Hello()

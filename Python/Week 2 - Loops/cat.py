@@ -15,8 +15,3 @@ This code file will show how we can use  while loop in python.
 #     i -= 1
 # print ('\n','Finish')    
 
-## Or how about taking a user input
-while True:
-    n = int(input('How many meows did you want again?: '))
-    if n > 0:
-        print('Meow', end=' ')

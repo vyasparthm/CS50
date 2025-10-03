@@ -16,11 +16,10 @@ def main():
 
 def camel(camelcase):
     for i in camelcase:
-        if camelcase[0] and i.islower():
+       
+        if i.islower():
             print(i,end='',sep='')
-        elif i.islower():
-            print(i,end='',sep='')
-        elif camelcase[1] and i.isupper():
+        elif  i.isupper():
             print('_',i,end='',sep='')
         
 if __name__ == '__main__':

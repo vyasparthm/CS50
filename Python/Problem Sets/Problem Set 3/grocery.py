@@ -8,6 +8,8 @@ In a file called grocery.py,
    prefixing each line with the number of times the user inputted that item.
    No need to pluralize the items.
    Treat the user's input case-insensitively.
+
+NOTE: Use ctrl + z to break out of inserting the list and print the list   
 '''
 from collections import Counter
 

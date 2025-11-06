@@ -41,14 +41,3 @@ else:
     
 user_input = str(input('Enter String: '))
 print(figlet.renderText(user_input))
-
-
-        
-    
-
-
-
-# C:\Users\Parth\CS50\CS50\Python\Problem Sets\Problem Set 4
-
-# f = Figlet()
-# print(f.renderText('text to render'))

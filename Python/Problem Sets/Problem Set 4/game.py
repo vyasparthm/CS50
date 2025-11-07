@@ -29,7 +29,9 @@ try:
                 
                 elif user_input == answer:
                     print('Just Right!')
-                    break
+                    sys.exit()
+
+                
                 elif user_input < answer:
                     print('Too Small!')    
                     continue

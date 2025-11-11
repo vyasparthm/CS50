@@ -35,7 +35,7 @@ try:
     
     inner_data = data['data']
     print('--'*40)
-    print('** More Details Below')
+    print('** More Details Below **')
     print('--'*40)
     for key,value in inner_data.items():
         print(f'\t**{key} = {value} **')

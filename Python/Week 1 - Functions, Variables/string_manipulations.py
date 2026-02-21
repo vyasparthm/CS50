@@ -5,10 +5,10 @@ This code file will show some basic manipulations we can d using python strings,
 
 ##1. We will see some basic manipulation like new line, tab and some formatting in this Section
 
-# print( "This is Basic String:","Hello World")
-# print( "This is Basic String:","Hello World", sep="") # With Seperator defined, notice the missing space
-# print("This is string with new line:", "Hello\nWorld") #\n is used for new line like many other programming languages
-# print("This is string with tab:", "Hello\tWorld") #\t is used for tab
+print( "This is Basic String:","Hello World")
+print( "This is Basic String:","Hello World", sep="") # With Seperator defined, notice the missing space
+print("This is string with new line:", "Hello\nWorld") #\n is used for new line like many other programming languages
+print("This is string with tab:", "Hello\tWorld") #\t is used for tab
 
 
 ## 2. Lets see some Methods we can use on strings.
@@ -49,10 +49,10 @@ This code file will show some basic manipulations we can d using python strings,
 # print("I am thinking of learning", "about",new_String,"today")
 # print(f"I am going to be learning about: {new_String}")
 
-## 4.1 Formatting with placeholders
-player = 'Zlatan'
-goals = 35
+# ## 4.1 Formatting with placeholders
+# player = 'Zlatan'
+# goals = 35
 
-print("I am going to insert %s's name in goal list with %s goals this season"%(player,goals))
+# print("I am going to insert %s's name in goal list with %s goals this season"%(player,goals))
 
 

@@ -17,7 +17,7 @@ z = x+y
 
 #Formatting the numbers
 
-# print(f"{x+y :,}") # this will add a comma and make the number more readable
+print(f"{x+y :,}") # this will add a comma and make the number more readable
 
 # Formatting the rounding
 print(round(x+y,3))

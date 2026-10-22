@@ -7,12 +7,12 @@ In a file called playback.py,
 implement a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 '''
 
+def playback(user_input:str)->str :
+    return user_input.replace(" ","...")
+
 def main():
-    inp = str(input('Give me your inut and I will slow it down for you: '))
-    playback(inp)
+    input_str = input("Tell me your words and I will slow it down:")
+    print(playback(input_str))
 
-def playback(userInpute):
-    print(userInpute.replace(' ','...'))
-
-if __name__ == '__main__':
-    main()    
+if __name__ == "__main__":
+    main()
